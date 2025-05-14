@@ -1,5 +1,43 @@
-li{
-    padding-inline: 20px;
-    list-style: none;
-    
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', Courier, monospace;
+}
+
+.grad {
+    background-image: linear-gradient(#212529,#012d6a);
+}
+
+.hov{
+    padding: 5px 10px 5px 10px;
+}
+
+a.active{
+    background-color: #e4e4e4;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+}
+
+.hov:hover{
+    background-color: #87898a;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease-in, background-color 0.3s ease-out;
+}
+
+.icon{
+    padding: 5px;
+}
+
+.icon:hover{
+    background-color: #87898a;
+    padding: 5px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in, background-color 0.3s ease-out;
+}
+
+.crs{
+    height: 40vw;
+    width: 100%;
+    object-fit: cover;
 }
