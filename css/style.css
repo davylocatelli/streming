@@ -13,7 +13,8 @@
 }
 
 a.active{
-    background-color: #e4e4e4;
+    background-color: #04244c;
+    color: white;
     padding: 5px 10px 5px 10px;
     border-radius: 7px;
 }
@@ -37,7 +38,7 @@ a.active{
 }
 
 .crs{
-    filter: brightness(75%);
+    filter: brightness(65%);
     z-index: -1;
     height: 45vw;
     width: 100%;
