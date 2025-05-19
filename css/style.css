@@ -82,6 +82,7 @@ a.active{
     background-position: relative;
     background-repeat: no-repeat;
     background-image: url(../img/oscar.png);
+    background-position-y: center;
 }
 
 .oscar h1{
@@ -94,4 +95,21 @@ a.active{
   display: block;
   height: 3px;
   width: 100%;
+}
+
+.card{
+    height: 490px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+
+
+footer{
+    background-image: linear-gradient(to right,#262626,#262626,#04244c);
 }
