@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,19 +37,19 @@
             <div class="container fluid text-center">
                 <ul class="d-flex flex-row fs-6 pt-4 justify-content-center">
                     <li class="nav-item mx-3 my-auto">
-                    <a class="nav-link hov text-white d-inline" aria-current="page" href="#">Drama</a>
+                    <a class="nav-link hov text-white d-inline" href="#drama">Drama</a>
                     </li>
                     <li class="nav-item mx-3 my-auto">
-                    <a class="nav-link text-white hov d-inline" href="#">Romance</a>
+                    <a class="nav-link text-white hov d-inline" href="#romance">Romance</a>
                     </li>
                     <li class="nav-item mx-3 my-auto">
-                    <a class="nav-link text-white hov d-inline" href="#">Comédia</a>
+                    <a class="nav-link text-white hov d-inline" href="#comedia">Comédia</a>
                     </li>
                     <li class="nav-item mx-3 my-auto">
-                    <a class="nav-link text-white hov d-inline" href="#">Ação</a>
+                    <a class="nav-link text-white hov d-inline" href="#acao">Ação</a>
                     </li>
                     <li class="nav-item mx-3 my-auto">
-                    <a class="nav-link text-white hov d-inline" href="#">Terror</a>
+                    <a class="nav-link text-white hov d-inline" href="#terror">Terror</a>
                     </li>
                 </ul>
             </div>
@@ -57,47 +57,74 @@
     </header>
     <main>
         <div class="container">
-            <h1 class="genero-titulo pt-4">Drama</h1>
+            <h1 class="genero-titulo pt-4" id="drama">Drama</h1>
             <div class="row">
-                <div class="card text-bg-dark mx-auto p-0" style="width: 18rem;">
-                <img src="img/filmes/drama/Culpa_tuya.jpg" class="card-img-top" style="" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Culpa Tuya</h5>
-                    <p class="card-text">Principais Atores: Nicole Wallace (Noah) e Gabriel Guevara (Nick)</p>
-                    <p class="card-text">Diretor: Domingo González</p>
-                    <p class="card-text">Ano de lançamento: 2024</p>
-                    <p class="card-text">classificação (idade): 16 anos</p>
-                    
+                <div class="card text-bg-dark mx-auto p-0" style="width: 19rem;">
+                    <img src="img/filmes/drama/Culpa_tuya.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Culpa Tuya</h5>
+                            <p class="card-text">Principais Atores: Nicole Wallace (Noah) e Gabriel Guevara (Nick)</p>
+                            <p class="card-text">Diretor: Domingo González</p>
+                            <p class="card-text">Ano de lançamento: 2024</p>
+                            <div>
+                                <img class="classificacao me-2" src="img/classificacao/16anos.png" alt="">
+                                <a href="#" class="btn cor1" data-bs-toggle="modal" data-bs-target="#modal1">
+                                    Prêmios
+                                </a>
+                            </div>
+                        </div>
                 </div>
+                <!--MODAL -->
+                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios - Culpa Tuya</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Não possui prêmios recebidos.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="cor1" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="card text-bg-dark mx-auto p-0" style="width: 19rem;">
+                    <img src="img/filmes/drama/é assim que acaba.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> É assim que Acaba</h5>
+                            <p class="card-text">Principais Atores: Blake Lively (lily Boloom) e Justin Baldoni (Ryle)</p>
+                            <p class="card-text">Diretor: Justin Baldoni</p>
+                            <p class="card-text">Ano de lançamento: 2024</p>
+                            <div>
+                                <img class="classificacao me-2" src="img/classificacao/14anos.png" alt="">
+                                <a href="#" class="btn cor1" data-bs-toggle="modal" data-bs-target="#modal2">
+                                    Prêmios
+                                </a>
+                            </div>
+                        </div>
                 </div>
 
                 <div class="card text-bg-dark mx-auto p-0" style="width: 19rem;">
-                <img src="img/filmes/drama/é assim que acaba.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> É assim que Acaba</h5>
-                    <p class="card-text">Principais Atores: Blake Lively (lily Boloom) e Justin Baldoni (Ryle)</p>
-                    <p class="card-text"> Diretor: Justin Baldoni</p>
-                    <p class="card-text">  Ano de lançamento: 2024</p>
-                            classificação (idade) 14 anos
+                    <img src="img/filmes/drama/a 5 passos de vc.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A cinco passos de você</h5>
+                            <p class="card-text">Principais Atores: Haley Lu Richardson (Estela) e Cole Sprouse (William Newman)</p>
+                            <p class="card-text">    Diretor:  Justin Baldoni</p>
+                            <p class="card-text">    Ano de lançamento: 2019</p>
+                            <div>
+                                <img class="classificacao me-2" src="img/classificacao/12anos.png" alt="">
+                                <a href="#" class="btn cor1" data-bs-toggle="modal" data-bs-target="#modal3">
+                                    Prêmios
+                                </a>
+                            </div>
+                                    exibir link para (prêmios se existirem):  Prêmio Escolha do Público para Estrela de Filme Dramático do Ano
 
-                    </p>
-                </div>
-                </div>
-
-                <div class="card text-bg-dark mx-auto p-0" style="width: 19rem;">
-                <img src="img/filmes/drama/a 5 passos de vc.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">A cinco passos de você</h5>
-                    <p class="card-text">Principais Atores: Haley Lu Richardson (Estela) e Cole Sprouse (William Newman)</p>
-                    <p class="card-text">    Diretor:  Justin Baldoni</p>
-                    <p class="card-text">    Ano de lançamento: 2019</p>
-
-                            classificação (idade) 12 anos
-
-                            exibir link para (prêmios se existirem):  Prêmio Escolha do Público para Estrela de Filme Dramático do Ano
-
-                    </p>
-                </div>
+                            </p>
+                        </div>
                 </div>
 
                 <div class="card text-bg-dark mx-auto p-0" style="width: 19rem;">
@@ -114,7 +141,7 @@
                     </p>
                 </div>
             </div>
-            <h1 class="genero-titulo pt-4">Romance</h1>
+            <h1 class="genero-titulo pt-4" id="romance">Romance</h1>
              <div class="card text-bg-dark mx-auto p-0" style="width: 19rem;">
               <img src="img/filmes/romance/para todos os garotos que ja amei.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -171,7 +198,7 @@
                 </p>
               </div>
             </div>
-            <h1 class="genero-titulo pt-4">Comédia</h1>
+            <h1 class="genero-titulo pt-4" id="comedia">Comédia</h1>
             <div class="card text-bg-dark mx-auto p-0" style="width: 19rem;">
               <img src="img/filmes/comedia/CentralIntelligencePoster.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -237,11 +264,11 @@
                 </p>
               </div>
             </div>
-            <h1 class="genero-titulo pt-4">Ação</h1>
+            <h1 class="genero-titulo pt-4" id="acao">Ação</h1>
 
 
 
-            <h1 class="genero-titulo pt-4">Terror</h1>
+            <h1 class="genero-titulo pt-4" id="terror">Terror</h1>
         </div>
 
     </main>
