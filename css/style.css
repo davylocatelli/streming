@@ -80,9 +80,11 @@ a.active{
 
 .oscar{
     background-position: relative;
+    background-size: 3000px;
     background-repeat: no-repeat;
     background-image: url(../img/oscar.png);
     background-position-y: center;
+    background-position-x: left;
 }
 
 .oscar h1{
@@ -97,7 +99,7 @@ a.active{
   width: 100%;
 }
 
-.card{
+#oscar.card{
     height: 490px;
 }
 
@@ -109,7 +111,18 @@ a.active{
   text-align: center; 
 }
 
-
 footer{
     background-image: linear-gradient(to right,#262626,#262626,#04244c);
+}
+
+.genero-titulo{
+    color: #294f74;
+}
+
+.subnav::after {
+  content: " ";
+  background-color: #0000009a;
+  display: block;
+  height: 2px;
+  width: 100%;
 }
